@@ -59,35 +59,4 @@ addBtn.addEventListener('click', function () {
     deleteCell.appendChild(deleteBtn);
 });
 
-// The following code block is unnecessary, and you can remove it:
 
-// for (const expense of expenses) {
-//     totalAmount += amount; // 'amount' is not defined in this context
-//     totalAmountCell.textContent = totalAmount;
-
-//     const newRow = expenseTableBody.insertRow();
-
-//     const categoryCell = newRow.insertCell();
-//     const amountCell = newRow.insertCell(); // Corrected the variable name
-//     const dateCell = newRow.insertCell();
-//     const deleteCell = newRow.insertCell();
-
-//     const deleteBtn = document.createElement('button');
-
-//     deleteBtn.textContent = 'Delete';
-//     deleteBtn.classList.add('delete-btn');
-//     deleteBtn.addEventListener('click', function () {
-//         expenses.splice(expenses.indexOf(expense), 1); // 'expense' is not defined in this context
-
-//         totalAmount -= expense.amount;
-//         totalAmountCell.textContent = totalAmount;
-
-//         expenseTableBody.removeChild(newRow);
-//     });
-
-//     const expense = expenses[expenses.length - 1];
-//     categoryCell.textContent = expense.category;
-//     amountCell.textContent = expense.amount; // Corrected the variable name
-//     dateCell.textContent = expense.date;
-//     deleteCell.appendChild(deleteBtn);
-// }
